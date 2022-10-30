@@ -3,6 +3,8 @@
     <head>
         <meta charset = "utf-8">
         <title>Dado Tea</title>
+        <link rel = "stylesheet" type = "text/css" 
+         href = "style.css">
     </head>
     <body>
         <h1>Dado Tea Lunch Special</h1>
@@ -15,7 +17,7 @@ Includes sandwich, snack and drink.
         </pre>    
         <form method = "post" action="#">
             <fieldset>
-                <legend> Order information </legend>
+                <legend> <em> information</em> </legend>
                 <p>
                     <label>
                         <strong>Name:</strong><br><input type="text" name="name" size="30">
@@ -29,37 +31,37 @@ Includes sandwich, snack and drink.
                 </p>
             </fieldset>
             <fieldset>
-                <legend> Sandwiches </legend>
+                <legend><em> Sandwiches </em></legend>
                 <p>
-                    <strong>Monday</strong><br>
+                    <strong class="float">Monday</strong><br>
                     <input type="radio" id="tomato" name="monsan">
                     <label for="tomato"> Tomato Mozzarella</label><br>
                     <input type="radio" id="chicken" name="monsan">
                     <label for="chicken">Chicken Salad</label>
                 </p>
                 <p>
-                    <strong> Tuesday </strong><br>
+                    <strong class="float"> Tuesday </strong><br>
                     <input type="radio" id="wrap" name="tuesan">
                     <label for="wrap">Greek Salad Wrap</label><br>
                     <input type="radio" id="toto" name="tuesan">
                     <label for="toto">Toto Wrap</label>
                 </p>
                 <p>
-                    <strong> Wednesday </strong><br>
+                    <strong class="float"> Wednesday </strong><br>
                     <input type="radio" id="hummus" name="wedsan">
                     <label for="hummus">Red Pepper Hummus</label><br>
                     <input type="radio" id="turkey" name="wedsan">
                     <label for="turkey"> Roasted Turkey </label>
                 </p>
                 <p>
-                    <strong> Thursday </strong><br>
+                    <strong class="float"> Thursday </strong><br>
                     <input type="radio" id="carrot" name="thursan">
                     <label for="carrot">Carrot-Ginger Hummus Wrap</label><br>
                     <input type="radio" id="egg" name="thursan">
                     <label for="egg">Egg Salad</label>
                 </p>
                 <p>
-                    <strong>Friday</strong><br>
+                    <strong class="float">Friday</strong><br>
                     <input type="radio" id="dado" name="frisan">
                     <label for="dado">Dado Wrap</label><br>
                     <input type="radio" id="tuna" name="frisan">
@@ -72,9 +74,9 @@ Includes sandwich, snack and drink.
                 </p>               
             </fieldset>
             <fieldset>
-                <legend>Snack</legend>
+                <legend><em>Snack</em></legend>
                 <p>
-                    <strong>Snacks</strong><br>
+                    <strong class="float">Snacks</strong><br>
                     <input type="radio" id="apple" name="snack">
                     <label for="apple">Apple</label><br>
                     <input type="radio" id="banana" name="snack">
@@ -84,9 +86,9 @@ Includes sandwich, snack and drink.
                 </p>
             </fieldset>
             <fieldset>
-                <legend>Drink</legend>
+                <legend><em>Drink</em></legend>
                 <p>
-                    <label><strong>Drinks</strong> <br>
+                    <label><strong class="float">Drinks</strong> <br>
                      <select name="drink">
                         <option>Coffee</option>
                         <option>Iced Coffee</option>
@@ -105,7 +107,7 @@ Includes sandwich, snack and drink.
                 </p>
             </fieldset>
             <p>
-                <input type="submit" value="Place Your Order">
+                <input class="order" type="submit" value="Place Your Order">
             </p>
     
         </form>
